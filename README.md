@@ -4,7 +4,7 @@ Library & CLI for converting longlat coordinates to a place (reverse geocoding w
 ## Run it
 
 ```sh
-npm point2place --longlat -100,33 // United States of America
+npx point2place --longlat -100,33 // United States of America
 ```
 
 TODOs:
