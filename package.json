@@ -1,0 +1,41 @@
+{
+  "name": "point2place",
+  "version": "0.0.1",
+  "description": "CLI to lookup a lat/long point to get a place (city, country)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradoyler/point2place.git"
+  },
+  "keywords": [
+    "reverse",
+    "geocoding",
+    "lookup",
+    "gps",
+    "geodb",
+    "geocoder"
+  ],
+  "author": "Brad Oyler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bradoyler/point2place/issues"
+  },
+  "homepage": "https://github.com/bradoyler/point2place#readme",
+  "devDependencies": {
+    "eslint": "4.11.0",
+    "eslint-config-standard": "10.2.1",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-node": "5.2.1",
+    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-standard": "3.0.1"
+  },
+  "bin": {
+    "point2place": "./bin/point2place.js"
+  },
+  "dependencies": {
+    "d3-geo": "1.9.0"
+  }
+}
