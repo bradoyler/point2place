@@ -1,6 +1,6 @@
 {
   "name": "point2place",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CLI/Library to lookup a point (long-lat) to get info on a place (country, state, city, population, etc)",
   "main": "index.js",
   "scripts": {
