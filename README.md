@@ -1,7 +1,7 @@
 # Point2Place
 Library & CLI for converting longlat coordinates to a place (reverse geocoding without an api)
 
-## Run it
+## CLI
 
 ```javascript
 npx point2place --longlat -100,40
@@ -29,3 +29,10 @@ nearestCity: {
 ## Data files used:
 - [AtlasMake: world-countries](https://github.com/bradoyler/atlas-make/tree/master/world-countries)
 - [AltasMake: world-places](https://github.com/bradoyler/atlas-make/tree/master/world-places)
+
+### Tips
+1 way to get your machines current location (Long-Lat coordinates)
+```
+$ brew cask install corelocationcli
+$ CoreLocationCLI -format "%longitude,%latitude"
+```
