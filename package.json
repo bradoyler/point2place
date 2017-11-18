@@ -1,7 +1,7 @@
 {
   "name": "point2place",
   "version": "0.1.0",
-  "description": "CLI\Library to lookup a point (long-lat) to get info on a place (country, state, city, population, etc)",
+  "description": "CLI/Library to lookup a point (long-lat) to get info on a place (country, state, city, population, etc)",
   "main": "index.js",
   "scripts": {
     "test": "node test"
