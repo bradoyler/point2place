@@ -4,7 +4,8 @@
   "description": "CLI/Library to lookup a point (long-lat) to get info on a place (country, state, city, population, etc)",
   "main": "index.js",
   "scripts": {
-    "test": "node test"
+    "test": "node test",
+    "cli": "node bin -l 30,30 && node bin -l 178.0636596,-17.9473807"
   },
   "repository": {
     "type": "git",
@@ -33,7 +34,7 @@
     "eslint-plugin-standard": "3.0.1"
   },
   "bin": {
-    "point2place": "./bin/point2place.js"
+    "point2place": "./bin/index.js"
   },
   "dependencies": {
     "commander": "2.11.0",
