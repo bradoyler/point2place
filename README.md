@@ -2,6 +2,12 @@
 
 Library & CLI for converting longlat coordinates to a place (reverse geocoding without an api)
 
+[![npm](https://img.shields.io/npm/v/point2place.svg)]()
+[![npm](https://img.shields.io/npm/dw/point2place.svg)]()
+[![GitHub last commit](https://img.shields.io/github/last-commit/bradoyler/point2place.svg)]()
+[![npm](https://img.shields.io/npm/l/point2place.svg)]()
+[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/bradoyler/point2place.svg)]()
+
 ### CLI
 ```sh
 $ npx point2place --longlat 30,30
